@@ -8,10 +8,10 @@ import './index.css'
 // import MainLayout from './layout/MainLayout'
 // import FilterComp from "../src/components/Array/FilterComp";
 // import FlatComp from "../src/components/Array/FlatComp";
-import PopComp from "../src/components/Array/PopComp";
+import IndexOfComp from "../src/components/String/IndexOfComp";
 
 createRoot(document.getElementById('root')).render(
   <>
-    <PopComp/>
+    <IndexOfComp/>
   </>,
 )
