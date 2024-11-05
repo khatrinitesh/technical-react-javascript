@@ -8,10 +8,10 @@ import './index.css'
 // import MainLayout from './layout/MainLayout'
 // import FilterComp from "../src/components/Array/FilterComp";
 // import FlatComp from "../src/components/Array/FlatComp";
-import LocaleCompareComp from "../src/components/String/LocaleCompareComp";
+import IsIntegerComp from './components/Number/IsIntergerComp';
 
 createRoot(document.getElementById('root')).render(
   <>
-    <LocaleCompareComp/>
+    <IsIntegerComp/>
   </>,
 )
