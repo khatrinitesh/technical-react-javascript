@@ -1,4 +1,5 @@
-import React from 'react';
+import { useStatStyles } from '@chakra-ui/react';
+import React, { useState } from 'react';
 
 const IndexOfComp = () => {
   return (
@@ -12,6 +13,15 @@ export default IndexOfComp;
 
 const IndexOfExample = () => {
    
+  const [name,setName] = useState('nitesh');
+  
+  const handleChange = (e) => {
+    e.preventDefault();
+    setName(e.target.value)
+  }
+  const handleClear = () => {
+    setName('');
+  }
     const myString = "Hello, World! Welcome to React.";
     const searchValue1 = "World";
     const searchValue2 = "React";
@@ -27,6 +37,10 @@ const IndexOfExample = () => {
         <p>Index of "{searchValue1}": {index1} {index1 !== -1 ? '(found)' : '(not found)'}</p>
         <p>Index of "{searchValue2}": {index2} {index2 !== -1 ? '(found)' : '(not found)'}</p>
         <p>Index of "{searchValue3}": {index3} {index3 === -1 ? '(not found)' : '(found)'}</p>
+        <input type="text" onChange={handleChange} value={name} />
+        <br/>
+        {name}
+        <button onClick={handleClear}>Clear</button>
         </>
     )
 }
