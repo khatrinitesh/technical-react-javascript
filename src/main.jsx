@@ -2,7 +2,8 @@
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
-import GetHoursComp from './components/Date/getHoursComp'
+// import NewSet from './components/Set/NewSet'
+import NewMapComp from './components/Map/NewMap'
 // import FindLastComp from './components/Array/Findindex'
 // import FindIndexComp from './components/Array/Findindex'
 // import Find from './components/Array/Find'
@@ -12,6 +13,6 @@ import GetHoursComp from './components/Date/getHoursComp'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <GetHoursComp/>
+    <NewMapComp/>
   </>,
 ) 
