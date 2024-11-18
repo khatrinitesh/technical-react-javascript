@@ -2,8 +2,9 @@
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
+import DataType from './components/DataType/DataType'
 // import NewSet from './components/Set/NewSet'
-import NewMapComp from './components/Map/NewMap'
+// import NewMapComp from './components/Map/NewMap'
 // import FindLastComp from './components/Array/Findindex'
 // import FindIndexComp from './components/Array/Findindex'
 // import Find from './components/Array/Find'
@@ -13,6 +14,6 @@ import NewMapComp from './components/Map/NewMap'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <NewMapComp/>
+    <DataType/>
   </>,
 ) 
