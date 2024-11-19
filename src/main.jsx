@@ -2,7 +2,8 @@
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
-import DataType from './components/DataType/DataType'
+import WindowConsoleComp from './components/WindowObject/WindowConsoleComp'
+
 // import NewSet from './components/Set/NewSet'
 // import NewMapComp from './components/Map/NewMap'
 // import FindLastComp from './components/Array/Findindex'
@@ -14,6 +15,6 @@ import DataType from './components/DataType/DataType'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <DataType/>
+    <WindowConsoleComp/>
   </>,
 ) 
