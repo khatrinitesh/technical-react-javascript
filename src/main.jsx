@@ -2,7 +2,7 @@
 import { createRoot } from 'react-dom/client'
 
 import './index.css'
-import WindowConsoleComp from './components/WindowObject/WindowConsoleComp'
+import HooksComp from './components/Hooks/Hooks5/HooksComp'
 
 // import NewSet from './components/Set/NewSet'
 // import NewMapComp from './components/Map/NewMap'
@@ -15,6 +15,6 @@ import WindowConsoleComp from './components/WindowObject/WindowConsoleComp'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <WindowConsoleComp/>
+    <HooksComp/>
   </>,
 ) 
